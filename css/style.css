@@ -8,7 +8,7 @@ main .img-container{
 }
 div img{
 	position: absolute;
-	
+	display: none;
 }
 #front{
 	top: 20px;
