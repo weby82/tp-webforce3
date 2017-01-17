@@ -1,0 +1,70 @@
+main .img-container{
+	margin: 20px auto 0;
+	width: 960px;
+	height: 1024px;
+	background:url(../img/iceberg-complet.jpg);
+	position: relative;
+	
+}
+div img{
+	position: absolute;
+	display: none;
+}
+#front{
+	top: 20px;
+	left: 275px;
+}
+#html{
+	top: 290px;
+	right: 330px;
+}
+#css{
+	top: 294px;
+	right: 258px;
+}
+#js{
+	top: 295px;
+	right: 158px;
+}
+#php{
+	top: 560px;
+	left: 320px;
+}
+#mysql{
+	top: 630px;
+	left: 370px;
+}
+#framework{
+	top: 730px;
+	left: 370px;
+}
+#back{
+	bottom: 170px;
+	left: 5px;
+}
+
+div img.show{
+	display: block !important;
+	transition: display 1s;
+}
+
+.btn{
+	width: 960px;
+	margin: 15px auto 0;
+	text-align: center;
+}
+
+#charger{
+	display: inline-block;
+	padding: 8px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: lightblue;
+	border-radius: 5px;
+	color: black;
+	
+}
+#charger:hover{
+	background-color: #295b6b;
+	color: white;
+}
